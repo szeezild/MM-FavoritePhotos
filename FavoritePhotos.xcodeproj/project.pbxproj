@@ -14,7 +14,7 @@
 		075FB16F18EA43ED00AFAE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB16E18EA43ED00AFAE65 /* main.m */; };
 		075FB17318EA43ED00AFAE65 /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB17218EA43ED00AFAE65 /* DSAppDelegate.m */; };
 		075FB17618EA43ED00AFAE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FB17418EA43ED00AFAE65 /* Main.storyboard */; };
-		075FB17918EA43ED00AFAE65 /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB17818EA43ED00AFAE65 /* DSViewController.m */; };
+		075FB17918EA43ED00AFAE65 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB17818EA43ED00AFAE65 /* SearchViewController.m */; };
 		075FB17B18EA43ED00AFAE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075FB17A18EA43ED00AFAE65 /* Images.xcassets */; };
 		075FB18218EA43ED00AFAE65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075FB18118EA43ED00AFAE65 /* XCTest.framework */; };
 		075FB18318EA43ED00AFAE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075FB16218EA43ED00AFAE65 /* Foundation.framework */; };
@@ -22,6 +22,8 @@
 		075FB18C18EA43ED00AFAE65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075FB18A18EA43ED00AFAE65 /* InfoPlist.strings */; };
 		075FB18E18EA43ED00AFAE65 /* FavoritePhotosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB18D18EA43ED00AFAE65 /* FavoritePhotosTests.m */; };
 		075FB19918EA448400AFAE65 /* FlickrPhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB19818EA448400AFAE65 /* FlickrPhotoViewCell.m */; };
+		075FB23218EB768400AFAE65 /* DetailPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB23118EB768400AFAE65 /* DetailPhotoViewController.m */; };
+		075FB23818EB7F5100AFAE65 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075FB23718EB7F5100AFAE65 /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +48,8 @@
 		075FB17118EA43ED00AFAE65 /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
 		075FB17218EA43ED00AFAE65 /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
 		075FB17518EA43ED00AFAE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		075FB17718EA43ED00AFAE65 /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
-		075FB17818EA43ED00AFAE65 /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
+		075FB17718EA43ED00AFAE65 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		075FB17818EA43ED00AFAE65 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		075FB17A18EA43ED00AFAE65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		075FB18018EA43ED00AFAE65 /* FavoritePhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritePhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075FB18118EA43ED00AFAE65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +58,10 @@
 		075FB18D18EA43ED00AFAE65 /* FavoritePhotosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritePhotosTests.m; sourceTree = "<group>"; };
 		075FB19718EA448400AFAE65 /* FlickrPhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoViewCell.h; sourceTree = "<group>"; };
 		075FB19818EA448400AFAE65 /* FlickrPhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoViewCell.m; sourceTree = "<group>"; };
+		075FB23018EB768400AFAE65 /* DetailPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPhotoViewController.h; sourceTree = "<group>"; };
+		075FB23118EB768400AFAE65 /* DetailPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPhotoViewController.m; sourceTree = "<group>"; };
+		075FB23618EB7F5100AFAE65 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		075FB23718EB7F5100AFAE65 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +124,12 @@
 				075FB17118EA43ED00AFAE65 /* DSAppDelegate.h */,
 				075FB17218EA43ED00AFAE65 /* DSAppDelegate.m */,
 				075FB17418EA43ED00AFAE65 /* Main.storyboard */,
-				075FB17718EA43ED00AFAE65 /* DSViewController.h */,
-				075FB17818EA43ED00AFAE65 /* DSViewController.m */,
+				075FB23618EB7F5100AFAE65 /* FavoritesViewController.h */,
+				075FB23718EB7F5100AFAE65 /* FavoritesViewController.m */,
+				075FB17718EA43ED00AFAE65 /* SearchViewController.h */,
+				075FB17818EA43ED00AFAE65 /* SearchViewController.m */,
+				075FB23018EB768400AFAE65 /* DetailPhotoViewController.h */,
+				075FB23118EB768400AFAE65 /* DetailPhotoViewController.m */,
 				075FB19718EA448400AFAE65 /* FlickrPhotoViewCell.h */,
 				075FB19818EA448400AFAE65 /* FlickrPhotoViewCell.m */,
 				075FB17A18EA43ED00AFAE65 /* Images.xcassets */,
@@ -257,7 +267,9 @@
 			files = (
 				075FB19918EA448400AFAE65 /* FlickrPhotoViewCell.m in Sources */,
 				075FB16F18EA43ED00AFAE65 /* main.m in Sources */,
-				075FB17918EA43ED00AFAE65 /* DSViewController.m in Sources */,
+				075FB23818EB7F5100AFAE65 /* FavoritesViewController.m in Sources */,
+				075FB23218EB768400AFAE65 /* DetailPhotoViewController.m in Sources */,
+				075FB17918EA43ED00AFAE65 /* SearchViewController.m in Sources */,
 				075FB17318EA43ED00AFAE65 /* DSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +475,7 @@
 				075FB19318EA43ED00AFAE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075FB19418EA43ED00AFAE65 /* Build configuration list for PBXNativeTarget "FavoritePhotosTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +484,7 @@
 				075FB19618EA43ED00AFAE65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

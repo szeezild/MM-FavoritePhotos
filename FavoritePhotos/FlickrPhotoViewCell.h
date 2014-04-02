@@ -14,4 +14,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+//  this is needed to stored data instead of URL and be able to access pictures off-line
+@property NSData *imageData;
+
+
 @end
