@@ -42,7 +42,7 @@
 //    self.searches = [[NSMutableArray alloc]initWithCapacity:10];
 //    self.favoritePhotos = [[NSMutableArray alloc]initWithCapacity:10];
     
-//    [self load];
+    [self load];
     
 }
 
@@ -182,6 +182,7 @@
     
     NSURL *plist = [[self documentsDirectory] URLByAppendingPathComponent:@"favorites.plist"];
     [self.favoritePhotos writeToURL:plist atomically:YES];
+    
 
 //    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
 //    [userDefaults setObject:[NSDate date] forKey:@"last saved"];
@@ -201,7 +202,6 @@
     }
     
     [self.searchCollectionView reloadData];
-    
 }
 
 
